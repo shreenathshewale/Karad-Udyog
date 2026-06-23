@@ -56,15 +56,20 @@ export default function Solution() {
         <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brandSurface border border-white/5 mb-6">
           <span className="w-1.5 h-1.5 rounded-full bg-brandPrimary"></span>
           <span className="font-outfit text-xs font-semibold uppercase tracking-wider text-brandPrimary">
-            The Blueprint
+            🚀 KARAD UDYOG'S PROVEN GROWTH FORMULA<br />
+            व्यवसाय वाढीचा सिद्ध मार्ग
           </span>
         </div>
 
         <h2 className="font-devanagari text-3xl md:text-5xl font-black text-brandText leading-tight">
-          करड उद्योग ग्रोथ सिस्टीम
+          तुमच्या व्यवसायाला<br />
+          Digital Brand बनवण्याची<br />
+          आमची सिद्ध प्रक्रिया
         </h2>
         <p className="font-outfit text-base text-brandMuted mt-4 max-w-xl mx-auto leading-relaxed">
-          A systematic, battle-tested framework engineered to transform unknown local businesses into recognizable market brands.
+          Branding → Content Creation → Reels → Google & Meta Ads → Lead Generation → Business Growth
+          <br /><br />
+          कराड उद्योगची ही सिद्ध Growth Formula स्थानिक व्यवसायांना डिजिटल जगात वेगळी ओळख, नवीन ग्राहक आणि सातत्यपूर्ण व्यवसाय वाढ मिळवून देते.
         </p>
       </div>
 
