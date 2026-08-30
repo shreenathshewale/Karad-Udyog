@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --color-slate-light: #F8FAFC;
+  --color-slate-card: #F1F5F9;
+  --color-navy-dark: #0F172A;
+  --color-navy-surface: #111827;
+  --color-blue-brand: #2563EB;
+  --color-blue-hover: #1D4ED8;
+  --color-border-slate: #E2E8F0;
+  --color-text-primary: #0F172A;
+  --color-text-secondary: #334155;
+  --color-text-muted: #64748B;
+
+  --font-sans: "Plus Jakarta Sans", "Inter", system-ui, -apple-system, sans-serif;
+  --font-serif: "Plus Jakarta Sans", system-ui, sans-serif;
+}
+
+/* Base settings */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #FFFFFF;
+  color: #0F172A;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  font-weight: 450;
+}
+
+/* Selection */
+::selection {
+  background-color: #2563EB;
+  color: #FFFFFF;
+}
+
+/* Focus */
+:focus-visible {
+  outline: 2px solid #2563EB;
+  outline-offset: 2px;
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Custom Agency Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8FAFC;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2563EB;
+}
